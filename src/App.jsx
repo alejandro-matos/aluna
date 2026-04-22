@@ -13,11 +13,12 @@ const translations = {
       philosophy: "Filosofía",
       treatments: "Tratamientos",
       blog: "Blog",
+      faq: "Preguntas Frequentes",
       testimonials: "Testimonios",
       contact: "Contacto",
     },
     reserve: "Reservar",
-    heroEyebrow: "Aluna Bienestar Integral · Cartagena",
+    heroEyebrow: "Masaje terapéutico en Cartagena, Colombia",
     heroTitle: ["Cuidado corporal", "terapéutico con", "calidez y criterio."],
     heroText:
       "Un enfoque profesional que integra terapia manual, bienestar y atención cálida para dolor, tensión y recuperación.",
@@ -112,17 +113,96 @@ const translations = {
         place: "Google review · 5 stars",
       },
     ],
-    processEyebrow: "El proceso",
-    processTitle: "Tu proceso de recuperación",
-    steps: [
-      { title: "Consulta", text: "Formulario y revisión previa." },
-      { title: "Sesión", text: "Tratamiento de 60-90 min personalizado." },
-      { title: "Seguimiento", text: "Guía simple para mantener resultados." },
-    ],
+    faq: {
+      eyebrow: "Preguntas frecuentes",
+      title: "Resolvemos tus dudas antes de comenzar",
+      items: [
+        {
+          question: "¿Cuál es el proceso habitual de una cita de masaje terapéutico?",
+          answer: [
+            "El proceso comienza con un formulario y una consulta inicial para conocer tus molestias, objetivos y cualquier información importante sobre tu cuerpo.",
+            "Después se realiza el tratamiento, que comúnmente dura entre 60 y 90 minutos, adaptado a lo que se detecta durante la evaluación.",
+            "Al final, si es necesario, se entregan indicaciones simples de mantenimiento para cuidar los resultados después de la sesión.",
+          ],
+        },
+        {
+          question: "¿Qué diferencia hay entre un masaje terapéutico y uno relajante?",
+          answer: [
+            "El masaje terapéutico está enfocado en tratar la causa del dolor o la tensión, no solo en relajar. Comienza con una evaluación para entender qué está pasando en el cuerpo y trabajar de forma específica.",
+            "Cada sesión comienza con una breve evaluación para adaptar el tratamiento a lo que tu cuerpo realmente necesita.",
+            "El masaje relajante, en cambio, busca principalmente generar bienestar general y descanso, sin enfocarse en una molestia concreta.",
+          ],
+        },
+        {
+          question: "¿El masaje terapéutico duele?",
+          answer: [
+            "Puede haber algo de incomodidad en zonas con mucha tensión, pero nunca debería ser dolor intenso. El objetivo no es aguantar, sino trabajar el tejido de forma progresiva y segura.",
+            "Cada sesión se adapta a tu tolerancia, priorizando resultados sin generar estrés innecesario en el cuerpo.",
+          ],
+        },
+        {
+          question: "¿Cuántas sesiones necesito?",
+          answer: [
+            "Depende de cada caso. Algunas personas sienten mejoría desde la primera sesión, pero cuando hay molestias acumuladas o de larga duración, suele recomendarse un proceso de varias sesiones.",
+            "Durante la evaluación inicial se puede orientar mejor según tus objetivos y condición.",
+          ],
+        },
+        {
+          question: "¿Es seguro durante el embarazo?",
+          answer: [
+            "Sí, el masaje prenatal es seguro cuando se realiza con técnicas adecuadas y en posiciones cómodas para la madre.",
+            "Se enfoca en aliviar tensión, mejorar la circulación y acompañar los cambios del cuerpo durante el embarazo.",
+          ],
+        },
+        {
+          question: "¿Qué tipo de molestias pueden tratarse?",
+          answer: [
+            "Se puede trabajar con dolor de espalda y cuello, tensión muscular, estrés físico acumulado, molestias posturales y recuperación física.",
+            "Cada sesión se adapta según lo que tu cuerpo necesite en ese momento.",
+          ],
+        },
+        {
+          question: "¿Qué debo hacer antes y después de la sesión?",
+          answer: [
+            "Antes: venir con ropa cómoda y, si es posible, evitar comidas muy pesadas justo antes de la sesión.",
+            "Después: hidratarse bien, permitirle al cuerpo descansar y evitar esfuerzos intensos inmediatamente después.",
+          ],
+        },
+        {
+          question: "¿Cuánto dura una sesión?",
+          answer: [
+            "Las sesiones suelen durar entre 60 y 90 minutos, dependiendo del tipo de tratamiento y las necesidades de cada persona.",
+          ],
+        },
+        {
+          question: "¿Necesito experiencia previa o haber recibido masajes antes?",
+          answer: [
+            "No. Muchas personas comienzan sin experiencia previa. La sesión se adapta completamente a tu nivel de comodidad y se explica el proceso para que te sientas tranquilo(a).",
+          ],
+        },
+        {
+          question: "¿Cómo puedo agendar una sesión?",
+          answer: [
+            "Puedes agendar fácilmente a través del botón de reserva o escribir directamente por WhatsApp para coordinar tu cita.",
+          ],
+        },
+        {
+          question: "¿Dónde se realizan las sesiones?",
+          answer: [
+            "Las sesiones se realizan en Cartagena, Colombia. Puedes reservar online o escribir por WhatsApp para confirmar disponibilidad y ubicación.",
+          ],
+        },
+      ],
+      ctaText: "¿Tienes otra pregunta o quieres agendar tu sesión?",
+      bookButton: "Reservar cita",
+      whatsappButton: "Escribir por WhatsApp",
+    },
     ctaEyebrow: "Reserva",
-    ctaTitle: "Comienza tu recuperación",
-    bookSession: "Reservar sesión",
-    footer: "© 2026 Aluna Bienestar Integral. International Standards.",
+    ctaTitle: "Agenda tu cita",
+    ctaText: "Sesiones presenciales en Cartagena, Colombia.",
+    bookOnline: "Reserva online",
+    whatsappBooking: "Agendar por WhatsApp",
+    footer: "© 2026 Aluna Bienestar Integral · Cartagena, Colombia.",
     posts: {},
   },
   en: {
@@ -130,11 +210,12 @@ const translations = {
       philosophy: "Philosophy",
       treatments: "Treatments",
       blog: "Blog",
+      faq: "FAQ",
       testimonials: "Reviews",
       contact: "Contact",
     },
     reserve: "Book",
-    heroEyebrow: "Aluna Integral Wellness · Cartagena",
+    heroEyebrow: "Therapeutic massage in Cartagena, Colombia",
     heroTitle: ["Therapeutic", "body care with", "warmth and expertise."],
     heroText:
       "A professional approach that integrates manual therapy, wellness, and warm care for pain, tension, and recovery.",
@@ -229,17 +310,96 @@ const translations = {
         place: "Google review · 5 stars",
       },
     ],
-    processEyebrow: "The process",
-    processTitle: "Your recovery process",
-    steps: [
-      { title: "Consultation", text: "Form and initial review." },
-      { title: "Session", text: "Personalized 60-90 min treatment." },
-      { title: "Follow-up", text: "Simple guidance to maintain results." },
-    ],
+    faq: {
+      eyebrow: "Frequently asked questions",
+      title: "Clear answers before you begin",
+      items: [
+        {
+          question: "What is the usual process for a massage therapy appointment?",
+          answer: [
+            "The process begins with a form and an initial consultation to understand your concerns, goals, and any important information about your body.",
+            "Then the treatment takes place, most commonly lasting between 60 and 90 minutes, adapted to what is found during the assessment.",
+            "At the end, if needed, you receive simple maintenance instructions to help care for the results after the session.",
+          ],
+        },
+        {
+          question: "What is the difference between therapeutic and relaxation massage?",
+          answer: [
+            "Therapeutic massage focuses on addressing the cause of pain or tension, not only helping you relax. It begins with an assessment to understand what is happening in the body and work with more precision.",
+            "Each session starts with a brief assessment so the treatment can adapt to what your body truly needs.",
+            "Relaxation massage mainly supports general wellbeing and rest, without focusing on a specific concern.",
+          ],
+        },
+        {
+          question: "Does therapeutic massage hurt?",
+          answer: [
+            "There may be some discomfort in areas with a lot of tension, but it should never feel intensely painful. The goal is not to endure pain, but to work with the tissue progressively and safely.",
+            "Each session adapts to your tolerance, prioritizing results without creating unnecessary stress in the body.",
+          ],
+        },
+        {
+          question: "How many sessions do I need?",
+          answer: [
+            "It depends on each case. Some people feel improvement after the first session, but accumulated or long-term discomfort usually benefits from a process over several sessions.",
+            "The initial assessment helps guide the recommendation based on your goals and condition.",
+          ],
+        },
+        {
+          question: "Is it safe during pregnancy?",
+          answer: [
+            "Yes, prenatal massage is safe when appropriate techniques and comfortable positions are used.",
+            "It focuses on easing tension, supporting circulation, and accompanying the body's changes during pregnancy.",
+          ],
+        },
+        {
+          question: "What kinds of discomfort can be treated?",
+          answer: [
+            "Sessions can support back and neck pain, muscle tension, accumulated physical stress, postural discomfort, and physical recovery.",
+            "Each session adapts to what your body needs in that moment.",
+          ],
+        },
+        {
+          question: "What should I do before and after the session?",
+          answer: [
+            "Before: wear comfortable clothing and, if possible, avoid very heavy meals right before the session.",
+            "After: hydrate well, allow your body to rest, and avoid intense effort immediately afterward.",
+          ],
+        },
+        {
+          question: "How long does a session last?",
+          answer: [
+            "Sessions usually last between 60 and 90 minutes, depending on the type of treatment and each person's needs.",
+          ],
+        },
+        {
+          question: "Do I need previous massage experience?",
+          answer: [
+            "No. Many people begin without previous experience. The session adapts fully to your comfort level and the process is explained so you can feel at ease.",
+          ],
+        },
+        {
+          question: "How can I book a session?",
+          answer: [
+            "You can book easily through the booking button or write directly on WhatsApp to coordinate your appointment.",
+          ],
+        },
+        {
+          question: "Where do sessions take place?",
+          answer: [
+            "Sessions take place in Cartagena, Colombia. You can book online or write on WhatsApp to confirm availability and location.",
+          ],
+        },
+      ],
+      ctaText: "Do you have another question or want to book your session?",
+      bookButton: "Book appointment",
+      whatsappButton: "Write on WhatsApp",
+    },
     ctaEyebrow: "Booking",
-    ctaTitle: "Start your recovery",
-    bookSession: "Book session",
-    footer: "© 2026 Aluna Integral Wellness. International Standards.",
+    ctaTitle: "Book your appointment",
+    ctaText: "In-person sessions in Cartagena, Colombia.",
+    bookOnline: "Online booking",
+    whatsappBooking: "Book by WhatsApp",
+    footer: "© 2026 Aluna Integral Wellness · Cartagena, Colombia.",
     posts: {
       "parte-cuerpo-mas-importante": {
         title: "What is the most important body part to massage?",
@@ -276,11 +436,12 @@ const translations = {
       philosophy: "Philosophie",
       treatments: "Soins",
       blog: "Blog",
+      faq: "FAQ",
       testimonials: "Avis",
       contact: "Contact",
     },
     reserve: "Réserver",
-    heroEyebrow: "Aluna Bien-être Intégral · Cartagena",
+    heroEyebrow: "Massage thérapeutique à Cartagena, Colombie",
     heroTitle: ["Soins corporels", "thérapeutiques avec", "chaleur et expertise."],
     heroText:
       "Une approche professionnelle qui intègre thérapie manuelle, bien-être et attention chaleureuse pour la douleur, la tension et la récupération.",
@@ -375,17 +536,96 @@ const translations = {
         place: "Avis Google · 5 étoiles",
       },
     ],
-    processEyebrow: "Le processus",
-    processTitle: "Votre processus de récupération",
-    steps: [
-      { title: "Consultation", text: "Formulaire et revue initiale." },
-      { title: "Séance", text: "Traitement personnalisé de 60 à 90 min." },
-      { title: "Suivi", text: "Conseils simples pour maintenir les résultats." },
-    ],
+    faq: {
+      eyebrow: "Questions fréquentes",
+      title: "Des réponses claires avant de commencer",
+      items: [
+        {
+          question: "Quel est le processus habituel d'un rendez-vous de massage thérapeutique ?",
+          answer: [
+            "Le processus commence par un formulaire et une consultation initiale pour comprendre vos gênes, vos objectifs et toute information importante sur votre corps.",
+            "Ensuite vient le traitement, qui dure le plus souvent entre 60 et 90 minutes, adapté à ce qui est observé pendant l'évaluation.",
+            "À la fin, si nécessaire, des indications simples d'entretien sont données pour aider à maintenir les résultats après la séance.",
+          ],
+        },
+        {
+          question: "Quelle est la différence entre un massage thérapeutique et un massage relaxant ?",
+          answer: [
+            "Le massage thérapeutique vise à traiter la cause de la douleur ou de la tension, pas seulement à détendre. Il commence par une évaluation pour comprendre ce qui se passe dans le corps et travailler de façon ciblée.",
+            "Chaque séance commence par une brève évaluation afin d'adapter le traitement à ce dont votre corps a réellement besoin.",
+            "Le massage relaxant recherche surtout le bien-être général et le repos, sans se concentrer sur une gêne précise.",
+          ],
+        },
+        {
+          question: "Le massage thérapeutique fait-il mal ?",
+          answer: [
+            "Il peut y avoir un certain inconfort dans les zones très tendues, mais cela ne devrait jamais être une douleur intense. L'objectif n'est pas de supporter, mais de travailler les tissus progressivement et en sécurité.",
+            "Chaque séance s'adapte à votre tolérance, en privilégiant les résultats sans créer de stress inutile dans le corps.",
+          ],
+        },
+        {
+          question: "Combien de séances faut-il ?",
+          answer: [
+            "Cela dépend de chaque cas. Certaines personnes sentent une amélioration dès la première séance, mais les gênes accumulées ou anciennes demandent souvent un processus sur plusieurs séances.",
+            "L'évaluation initiale permet de mieux orienter la recommandation selon vos objectifs et votre condition.",
+          ],
+        },
+        {
+          question: "Est-ce sûr pendant la grossesse ?",
+          answer: [
+            "Oui, le massage prénatal est sûr lorsqu'il est réalisé avec des techniques adaptées et dans des positions confortables pour la mère.",
+            "Il vise à soulager les tensions, améliorer la circulation et accompagner les changements du corps pendant la grossesse.",
+          ],
+        },
+        {
+          question: "Quels types de gênes peuvent être traités ?",
+          answer: [
+            "Les séances peuvent aider avec les douleurs du dos et du cou, la tension musculaire, le stress physique accumulé, les gênes posturales et la récupération physique.",
+            "Chaque séance s'adapte à ce dont votre corps a besoin à ce moment-là.",
+          ],
+        },
+        {
+          question: "Que faire avant et après la séance ?",
+          answer: [
+            "Avant : venir avec des vêtements confortables et, si possible, éviter les repas très lourds juste avant la séance.",
+            "Après : bien s'hydrater, laisser le corps se reposer et éviter les efforts intenses immédiatement après.",
+          ],
+        },
+        {
+          question: "Combien de temps dure une séance ?",
+          answer: [
+            "Les séances durent généralement entre 60 et 90 minutes, selon le type de traitement et les besoins de chaque personne.",
+          ],
+        },
+        {
+          question: "Faut-il avoir déjà reçu un massage ?",
+          answer: [
+            "Non. Beaucoup de personnes commencent sans expérience préalable. La séance s'adapte entièrement à votre niveau de confort et le processus est expliqué pour que vous vous sentiez tranquille.",
+          ],
+        },
+        {
+          question: "Comment puis-je réserver une séance ?",
+          answer: [
+            "Vous pouvez réserver facilement avec le bouton de réservation ou écrire directement sur WhatsApp pour coordonner votre rendez-vous.",
+          ],
+        },
+        {
+          question: "Où se déroulent les séances ?",
+          answer: [
+            "Les séances se déroulent à Cartagena, en Colombie. Vous pouvez réserver en ligne ou écrire sur WhatsApp pour confirmer la disponibilité et le lieu.",
+          ],
+        },
+      ],
+      ctaText: "Avez-vous une autre question ou souhaitez-vous réserver votre séance ?",
+      bookButton: "Réserver",
+      whatsappButton: "Écrire sur WhatsApp",
+    },
     ctaEyebrow: "Réservation",
-    ctaTitle: "Commencez votre récupération",
-    bookSession: "Réserver une séance",
-    footer: "© 2026 Aluna Bien-être Intégral. International Standards.",
+    ctaTitle: "Réservez votre rendez-vous",
+    ctaText: "Séances en personne à Cartagena, Colombie.",
+    bookOnline: "Réservation en ligne",
+    whatsappBooking: "Réserver par WhatsApp",
+    footer: "© 2026 Aluna Bien-être Intégral · Cartagena, Colombie.",
     posts: {
       "parte-cuerpo-mas-importante": {
         title: "Quelle est la partie du corps la plus importante à masser ?",
@@ -419,6 +659,84 @@ const translations = {
   },
 };
 
+const featureIconTypes = ["assessment", "language", "standards"];
+
+function FeatureIcon({ type }) {
+  if (type === "assessment") {
+    return (
+      <svg className="feature-icon" viewBox="0 0 24 24" aria-hidden="true">
+        <path
+          d="M8.5 5.4H7.2a2 2 0 0 0-2 2v10.4a2 2 0 0 0 2 2h9.6a2 2 0 0 0 2-2V7.4a2 2 0 0 0-2-2h-1.3"
+          fill="none"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="1.7"
+        />
+        <path
+          d="M8.7 6.8h6.6V5.5a2 2 0 0 0-2-2h-2.6a2 2 0 0 0-2 2v1.3Z"
+          fill="none"
+          stroke="currentColor"
+          strokeLinejoin="round"
+          strokeWidth="1.7"
+        />
+        <path
+          d="M8.9 13.1l2 2 4.4-4.8"
+          fill="none"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="1.8"
+        />
+      </svg>
+    );
+  }
+
+  if (type === "language") {
+    return (
+      <svg className="feature-icon" viewBox="0 0 24 24" aria-hidden="true">
+        <path
+          d="M4.5 8.2h8.6M8.8 5.5v2.7M6.5 16.3c2.5-1.8 4.3-4.5 5-8.1M6.2 8.2c.8 2.2 2.2 4.1 4.2 5.8"
+          fill="none"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="1.65"
+        />
+        <path
+          d="M13.6 18.5l3.1-8.2 3.1 8.2M14.7 15.8h4"
+          fill="none"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="1.65"
+        />
+      </svg>
+    );
+  }
+
+  return (
+    <svg className="feature-icon" viewBox="0 0 24 24" aria-hidden="true">
+      <path
+        d="M12 3.8l6.2 2.5v5.2c0 4-2.5 7.3-6.2 8.7-3.7-1.4-6.2-4.7-6.2-8.7V6.3L12 3.8Z"
+        fill="none"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="1.7"
+      />
+      <path
+        d="M9.1 12.1l2 2 4-4.3"
+        fill="none"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="1.8"
+      />
+    </svg>
+  );
+}
+
 export default function App() {
   const pathLanguage = window.location.pathname.match(/^\/(en|fr)(?=\/|$)/)?.[1];
   const initialLanguage = pathLanguage || "es";
@@ -426,11 +744,10 @@ export default function App() {
   const [isLanguageOpen, setIsLanguageOpen] = useState(false);
   const t = translations[language];
   const nav = [
-    { id: "philosophy", href: "#enfoque" },
     { id: "treatments", href: "#tratamientos" },
     { id: "blog", href: "#blog" },
+    { id: "faq", href: "#faq" },
     { id: "testimonials", href: "#testimonios" },
-    { id: "contact", href: "#contacto" },
   ];
   const languagePrefix = language === "es" ? "" : `/${language}`;
   const blogPath = window.location.pathname.replace(/^\/(en|fr)(?=\/|$)/, "");
@@ -444,10 +761,11 @@ export default function App() {
 
   const features = t.features;
   const modalities = t.modalities;
-  const steps = t.steps;
   const testimonials = t.testimonials;
+  const faq = t.faq;
 
   const [activeIndex, setActiveIndex] = useState(0);
+  const [activeFaqIndex, setActiveFaqIndex] = useState(0);
   const [isBadgeExpanded, setIsBadgeExpanded] = useState(false);
   const heroRef = useRef(null);
 
@@ -544,7 +862,7 @@ export default function App() {
           align-items: center;
           justify-content: space-between;
           padding: 12px 0;
-          gap: 24px;
+          gap: 16px;
         }
 
         .brand {
@@ -556,10 +874,15 @@ export default function App() {
 
         .nav {
           display: flex;
-          gap: 34px;
+          align-items: center;
+          gap: 22px;
           color: var(--navy);
           font-size: 0.95rem;
           font-weight: 500;
+        }
+
+        .nav a {
+          white-space: nowrap;
         }
 
         .nav a:hover, .brand:hover { opacity: 0.82; }
@@ -570,37 +893,56 @@ export default function App() {
           gap: 14px;
         }
 
+        .header-socials {
+          display: flex;
+          align-items: center;
+          gap: 8px;
+        }
+
         .language-menu {
           position: relative;
         }
 
+        .floating-language {
+          position: fixed;
+          right: 24px;
+          bottom: 24px;
+          z-index: 30;
+        }
+
         .language-trigger {
-          min-width: 68px;
-          height: 42px;
+          width: 52px;
+          height: 52px;
           border: 1px solid rgba(79, 100, 115, 0.12);
           border-radius: 999px;
-          background: transparent;
+          background: rgba(255,255,255,0.82);
           color: var(--navy);
           display: inline-flex;
           align-items: center;
           justify-content: center;
-          gap: 6px;
           font: inherit;
-          font-size: 0.82rem;
-          font-weight: 600;
           cursor: pointer;
-          box-shadow: none;
-          text-transform: uppercase;
+          box-shadow: 0 8px 18px rgba(79, 100, 115, 0.07);
+          transition: transform 0.18s ease, background 0.18s ease, border-color 0.18s ease, color 0.18s ease;
         }
 
         .language-trigger:hover {
-          background: rgba(255,255,255,0.62);
+          background: var(--off-white);
+          border-color: rgba(122, 143, 122, 0.34);
+          color: var(--sage);
+          transform: translateY(-2px);
+        }
+
+        .language-icon {
+          width: 25px;
+          height: 25px;
+          display: block;
         }
 
         .language-panel {
           position: absolute;
           right: 0;
-          top: calc(100% + 10px);
+          bottom: calc(100% + 10px);
           width: 168px;
           padding: 8px;
           background: rgba(250, 247, 243, 0.98);
@@ -635,12 +977,6 @@ export default function App() {
           line-height: 1;
         }
 
-        .language-chevron {
-          font-size: 0.78rem;
-          line-height: 1;
-          opacity: 0.72;
-        }
-
         .button-dark, .button-light {
           display: inline-flex;
           align-items: center;
@@ -653,7 +989,7 @@ export default function App() {
           cursor: pointer;
         }
 
-        .button-dark:hover, .button-light:hover, .social-btn:hover, .card:hover, .modality:hover, .step:hover {
+        .button-dark:hover, .button-light:hover, .social-btn:hover, .card:hover, .modality:hover {
           transform: translateY(-2px);
         }
 
@@ -910,16 +1246,16 @@ export default function App() {
           line-height: 1.9;
         }
 
-        .feature-grid, .step-grid, .modality-grid {
+        .feature-grid, .modality-grid {
           display: grid;
           gap: 24px;
         }
 
-        .feature-grid, .step-grid, .modality-grid {
+        .feature-grid, .modality-grid {
           grid-template-columns: repeat(3, 1fr);
         }
 
-        .card, .step {
+        .card {
           background: rgba(255,255,255,0.82);
           border: 1px solid var(--card-border);
           border-radius: 28px;
@@ -928,25 +1264,44 @@ export default function App() {
           transition: transform 0.18s ease, box-shadow 0.18s ease;
         }
 
+        .feature-card {
+          min-height: 252px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+          padding: 34px 28px;
+        }
+
         .symbol {
-          width: 46px;
-          height: 46px;
-          border-radius: 16px;
-          background: rgba(168, 184, 162, 0.18);
+          width: 64px;
+          height: 64px;
+          border-radius: 22px;
+          background:
+            linear-gradient(145deg, rgba(250,255,250,0.92), rgba(168, 184, 162, 0.22));
+          border: 1px solid rgba(122, 143, 122, 0.14);
           color: var(--navy);
           display: flex;
           align-items: center;
           justify-content: center;
-          font-size: 1.1rem;
+          box-shadow: 0 12px 26px rgba(79, 100, 115, 0.08);
+          margin-bottom: 6px;
         }
 
-        .card h3, .step h3, .modality h3 {
+        .feature-icon {
+          width: 34px;
+          height: 34px;
+          display: block;
+        }
+
+        .card h3, .modality h3 {
           margin: 18px 0 0;
           font-size: 1.05rem;
           color: var(--navy);
         }
 
-        .card p, .step p {
+        .card p {
           margin: 12px 0 0;
           color: var(--muted);
           font-size: 0.95rem;
@@ -1033,23 +1388,117 @@ export default function App() {
           background: rgba(216, 167, 160, 0.34);
         }
 
-        .process-title {
-          text-align: center;
-          margin-bottom: 42px;
+        .faq-section {
+          padding-top: 8px;
         }
 
-        .process-title .section-title {
-          margin-left: auto;
-          margin-right: auto;
-          max-width: 620px;
-          font-size: 2.55rem;
+        .faq-wrap {
+          display: grid;
+          grid-template-columns: 0.78fr 1.22fr;
+          gap: 44px;
+          align-items: start;
         }
 
-        .step-number {
-          font-size: 1.55rem;
-          color: var(--blush);
-          letter-spacing: -0.04em;
-          font-weight: 600;
+        .faq-heading {
+          position: sticky;
+          top: 132px;
+        }
+
+        .faq-list {
+          display: grid;
+          gap: 12px;
+        }
+
+        .faq-item {
+          background: rgba(255,255,255,0.78);
+          border: 1px solid rgba(122, 143, 122, 0.12);
+          border-radius: 24px;
+          box-shadow: 0 12px 30px rgba(79, 100, 115, 0.06);
+          overflow: hidden;
+        }
+
+        .faq-question {
+          width: 100%;
+          min-height: 72px;
+          border: 0;
+          background: transparent;
+          color: var(--navy);
+          cursor: pointer;
+          display: grid;
+          grid-template-columns: 1fr 34px;
+          align-items: center;
+          gap: 18px;
+          padding: 20px 22px;
+          text-align: left;
+          font: inherit;
+          font-size: 1rem;
+          font-weight: 700;
+          line-height: 1.45;
+        }
+
+        .faq-question:hover {
+          background: rgba(168, 184, 162, 0.10);
+        }
+
+        .faq-icon {
+          width: 34px;
+          height: 34px;
+          border-radius: 999px;
+          background: rgba(168, 184, 162, 0.18);
+          color: var(--sage);
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 1.35rem;
+          line-height: 1;
+          transition: transform 0.18s ease, background 0.18s ease;
+        }
+
+        .faq-item.open .faq-icon {
+          transform: rotate(45deg);
+          background: rgba(216, 167, 160, 0.22);
+        }
+
+        .faq-answer {
+          padding: 0 22px 22px;
+          color: var(--muted);
+          font-size: 0.95rem;
+          line-height: 1.82;
+        }
+
+        .faq-answer p {
+          margin: 0 0 12px;
+        }
+
+        .faq-answer p:last-child {
+          margin-bottom: 0;
+        }
+
+        .faq-cta {
+          margin-top: 22px;
+          padding: 24px;
+          border-radius: 28px;
+          background: rgba(168, 184, 162, 0.16);
+          border: 1px solid rgba(122, 143, 122, 0.12);
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          gap: 20px;
+        }
+
+        .faq-cta p {
+          margin: 0;
+          max-width: 340px;
+          color: var(--navy);
+          font-weight: 700;
+          line-height: 1.5;
+        }
+
+        .faq-actions {
+          display: flex;
+          gap: 12px;
+          flex-wrap: wrap;
+          justify-content: flex-end;
         }
 
         .cta-wrap {
@@ -1072,6 +1521,22 @@ export default function App() {
           line-height: 1.05;
           letter-spacing: -0.04em;
           color: var(--sage);
+        }
+
+        .cta-text {
+          margin: 18px auto 0;
+          max-width: 480px;
+          color: var(--muted);
+          font-size: 1rem;
+          line-height: 1.7;
+        }
+
+        .cta-actions {
+          display: flex;
+          justify-content: center;
+          gap: 14px;
+          flex-wrap: wrap;
+          margin-top: 30px;
         }
 
         .wordmark {
@@ -1100,11 +1565,6 @@ export default function App() {
           font-size: 0.78rem;
         }
 
-        .socials {
-          display: flex;
-          gap: 12px;
-        }
-
         .social-btn {
           width: 52px;
           height: 52px;
@@ -1119,6 +1579,12 @@ export default function App() {
           transition: transform 0.18s ease, background 0.18s ease, border-color 0.18s ease, color 0.18s ease;
         }
 
+        .header-socials .social-btn {
+          width: 42px;
+          height: 42px;
+          box-shadow: none;
+        }
+
         .social-btn:hover {
           background: var(--off-white);
           border-color: rgba(122, 143, 122, 0.34);
@@ -1129,6 +1595,11 @@ export default function App() {
           width: 28px;
           height: 28px;
           display: block;
+        }
+
+        .header-socials .social-icon {
+          width: 30px;
+          height: 30px;
         }
 
         .article-section {
@@ -1197,8 +1668,8 @@ export default function App() {
 
         @media (max-width: 960px) {
           .hero,
+          .faq-wrap,
           .feature-grid,
-          .step-grid,
           .modality-grid {
             grid-template-columns: 1fr;
           }
@@ -1212,6 +1683,20 @@ export default function App() {
 
           .nav {
             display: none;
+          }
+
+          .faq-heading {
+            position: static;
+          }
+
+          .faq-cta {
+            align-items: flex-start;
+            flex-direction: column;
+          }
+
+          .faq-actions {
+            width: 100%;
+            justify-content: flex-start;
           }
 
           .hero-title {
@@ -1313,6 +1798,20 @@ export default function App() {
             padding: 30px 24px;
           }
 
+          .faq-question {
+            min-height: 66px;
+            padding: 18px;
+            font-size: 0.95rem;
+          }
+
+          .faq-answer {
+            padding: 0 18px 18px;
+          }
+
+          .faq-cta {
+            padding: 20px;
+          }
+
           .cta {
             padding: 62px 18px;
           }
@@ -1331,6 +1830,25 @@ export default function App() {
 
           .hero-actions {
             flex-direction: column;
+          }
+
+          .floating-language {
+            right: 16px;
+            bottom: 16px;
+          }
+
+          .language-trigger {
+            width: 48px;
+            height: 48px;
+          }
+
+          .header-socials {
+            gap: 6px;
+          }
+
+          .header-socials .social-btn {
+            width: 38px;
+            height: 38px;
           }
         }
       `}</style>
@@ -1363,6 +1881,60 @@ export default function App() {
           </nav>
 
           <div className="header-actions">
+            <div className="header-socials" aria-label="Social links">
+              <a
+                href="https://www.instagram.com/katyfernandezrmt/"
+                className="social-btn"
+                aria-label="Instagram"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg className="social-icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <rect
+                    x="4"
+                    y="4"
+                    width="16"
+                    height="16"
+                    rx="5"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="1.8"
+                  />
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="3.4"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="1.8"
+                  />
+                  <circle cx="16.8" cy="7.2" r="1.1" fill="currentColor" />
+                </svg>
+              </a>
+              <a
+                href="#"
+                className="social-btn"
+                aria-label="WhatsApp"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg className="social-icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M5.6 19.2l1-3.5A7.6 7.6 0 1 1 9 18.1l-3.4 1.1Z"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="1.8"
+                  />
+                  <path
+                    d="M9.5 8.8c.2-.4.4-.4.7-.4h.5c.2 0 .4.1.5.4l.7 1.6c.1.3.1.5-.1.7l-.4.5c.7 1.3 1.7 2.2 3 2.8l.5-.6c.2-.2.4-.3.7-.2l1.6.7c.3.1.4.3.4.6v.5c0 .4-.2.6-.5.8-.5.3-1.3.5-2.4.2-2.8-.7-5.6-3.4-6.3-6.2-.2-.9 0-1.7.4-2.2Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </a>
+            </div>
+
             <a
               href={`${navPrefix}#contacto`}
               className="button-dark"
@@ -1371,42 +1943,57 @@ export default function App() {
               {t.reserve}
             </a>
 
-            <div className="language-menu">
-              <button
-                type="button"
-                className="language-trigger"
-                onClick={() => setIsLanguageOpen((isOpen) => !isOpen)}
-                aria-label="Select language"
-                aria-expanded={isLanguageOpen}
-              >
-                <span className="language-flag">{languages[language].flag}</span>
-                {languages[language].label}
-                <span className="language-chevron">⌄</span>
-              </button>
-
-              {isLanguageOpen && (
-                <div className="language-panel">
-                  {Object.entries(languages).map(([code, option]) => (
-                    <button
-                      key={code}
-                      type="button"
-                      className={`language-option ${
-                        code === language ? "active" : ""
-                      }`}
-                      onClick={() => {
-                        changeLanguage(code);
-                      }}
-                    >
-                      <span className="language-flag">{option.flag}</span>
-                      {option.name}
-                    </button>
-                  ))}
-                </div>
-              )}
-            </div>
           </div>
         </div>
       </header>
+
+      <div className="language-menu floating-language">
+        <button
+          type="button"
+          className="language-trigger"
+          onClick={() => setIsLanguageOpen((isOpen) => !isOpen)}
+          aria-label="Select language"
+          aria-expanded={isLanguageOpen}
+        >
+          <svg className="language-icon" viewBox="0 0 24 24" aria-hidden="true">
+            <circle
+              cx="12"
+              cy="12"
+              r="8.5"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="1.8"
+            />
+            <path
+              d="M3.8 12h16.4M12 3.5c2.2 2.3 3.3 5.1 3.3 8.5s-1.1 6.2-3.3 8.5M12 3.5C9.8 5.8 8.7 8.6 8.7 12s1.1 6.2 3.3 8.5"
+              fill="none"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeWidth="1.8"
+            />
+          </svg>
+        </button>
+
+        {isLanguageOpen && (
+          <div className="language-panel">
+            {Object.entries(languages).map(([code, option]) => (
+              <button
+                key={code}
+                type="button"
+                className={`language-option ${
+                  code === language ? "active" : ""
+                }`}
+                onClick={() => {
+                  changeLanguage(code);
+                }}
+              >
+                <span className="language-flag">{option.flag}</span>
+                {option.name}
+              </button>
+            ))}
+          </div>
+        )}
+      </div>
 
       <main id="top">
         {isBlogIndex ? (
@@ -1592,9 +2179,11 @@ export default function App() {
             </div>
 
             <div className="feature-grid">
-              {features.map((feature) => (
-                <div key={feature.title} className="card">
-                  <div className="symbol">{feature.symbol}</div>
+              {features.map((feature, index) => (
+                <div key={feature.title} className="card feature-card">
+                  <div className="symbol">
+                    <FeatureIcon type={featureIconTypes[index]} />
+                  </div>
                   <h3>{feature.title}</h3>
                   <p>{feature.text}</p>
                 </div>
@@ -1683,6 +2272,75 @@ export default function App() {
               <a href={`${languagePrefix}/blog`} className="button-light">
                 {t.viewAllArticles}
               </a>
+            </div>
+          </div>
+        </section>
+
+        <section className="section faq-section" id="faq">
+          <div className="container faq-wrap">
+            <div className="faq-heading">
+              <div className="eyebrow" style={styles.sageEyebrow}>
+                {faq.eyebrow}
+              </div>
+              <h2 className="section-title serif">{faq.title}</h2>
+            </div>
+
+            <div>
+              <div className="faq-list">
+                {faq.items.map((item, index) => {
+                  const isOpen = activeFaqIndex === index;
+                  const panelId = `faq-panel-${index}`;
+                  const buttonId = `faq-button-${index}`;
+
+                  return (
+                    <article
+                      key={item.question}
+                      className={`faq-item ${isOpen ? "open" : ""}`}
+                    >
+                      <button
+                        type="button"
+                        id={buttonId}
+                        className="faq-question"
+                        aria-expanded={isOpen}
+                        aria-controls={panelId}
+                        onClick={() =>
+                          setActiveFaqIndex(isOpen ? -1 : index)
+                        }
+                      >
+                        <span>{item.question}</span>
+                        <span className="faq-icon" aria-hidden="true">
+                          +
+                        </span>
+                      </button>
+
+                      {isOpen && (
+                        <div
+                          id={panelId}
+                          className="faq-answer"
+                          role="region"
+                          aria-labelledby={buttonId}
+                        >
+                          {item.answer.map((paragraph) => (
+                            <p key={paragraph}>{paragraph}</p>
+                          ))}
+                        </div>
+                      )}
+                    </article>
+                  );
+                })}
+              </div>
+
+              <div className="faq-cta">
+                <p>{faq.ctaText}</p>
+                <div className="faq-actions">
+                  <a href="#contacto" className="button-dark">
+                    {faq.bookButton}
+                  </a>
+                  <a href="#" className="button-light">
+                    {faq.whatsappButton}
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </section>
@@ -1802,37 +2460,18 @@ export default function App() {
           </div>
         </section>
 
-        <section className="section">
-          <div className="container">
-            <div className="process-title">
-              <div className="eyebrow" style={styles.sageEyebrow}>
-                {t.processEyebrow}
-              </div>
-              <h2 className="section-title serif">
-                {t.processTitle}
-              </h2>
-            </div>
-
-            <div className="step-grid">
-              {steps.map((step, index) => (
-                <div key={step.title} className="step">
-                  <div className="step-number">0{index + 1}</div>
-                  <h3>{step.title}</h3>
-                  <p>{step.text}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
         <section id="contacto" className="cta-wrap">
           <div className="container">
             <div className="cta">
               <div className="eyebrow">{t.ctaEyebrow}</div>
               <h2 className="cta-title serif">{t.ctaTitle}</h2>
-              <div style={{ marginTop: 30 }}>
+              <p className="cta-text">{t.ctaText}</p>
+              <div className="cta-actions">
                 <a href="#" className="button-dark">
-                  {t.bookSession}
+                  {t.bookOnline}
+                </a>
+                <a href="#" className="button-light">
+                  {t.whatsappBooking}
                 </a>
               </div>
             </div>
@@ -1848,74 +2487,6 @@ export default function App() {
       <footer className="footer">
         <div className="container footer-inner">
           <div>{t.footer}</div>
-
-          <div className="socials">
-            <a
-              href="https://www.instagram.com/katyfernandezrmt/"
-              className="social-btn"
-              aria-label="Instagram"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <svg className="social-icon" viewBox="0 0 24 24" aria-hidden="true">
-                <rect
-                  x="4"
-                  y="4"
-                  width="16"
-                  height="16"
-                  rx="5"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="1.8"
-                />
-                <circle
-                  cx="12"
-                  cy="12"
-                  r="3.4"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="1.8"
-                />
-                <circle cx="16.8" cy="7.2" r="1.1" fill="currentColor" />
-              </svg>
-            </a>
-            <a
-              href="#"
-              className="social-btn"
-              aria-label="WhatsApp"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <svg className="social-icon" viewBox="0 0 24 24" aria-hidden="true">
-                <path
-                  d="M5.6 19.2l1-3.5A7.6 7.6 0 1 1 9 18.1l-3.4 1.1Z"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="1.8"
-                />
-                <path
-                  d="M9.5 8.8c.2-.4.4-.4.7-.4h.5c.2 0 .4.1.5.4l.7 1.6c.1.3.1.5-.1.7l-.4.5c.7 1.3 1.7 2.2 3 2.8l.5-.6c.2-.2.4-.3.7-.2l1.6.7c.3.1.4.3.4.6v.5c0 .4-.2.6-.5.8-.5.3-1.3.5-2.4.2-2.8-.7-5.6-3.4-6.3-6.2-.2-.9 0-1.7.4-2.2Z"
-                  fill="currentColor"
-                />
-              </svg>
-            </a>
-            <a
-              href="https://www.linkedin.com/in/katy-fernandez-ojeda-6356b9211/"
-              className="social-btn"
-              aria-label="LinkedIn"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <svg className="social-icon" viewBox="0 0 24 24" aria-hidden="true">
-                <path
-                  d="M5.8 10h3v8.5h-3V10Zm1.5-4.2a1.7 1.7 0 1 1 0 3.4 1.7 1.7 0 0 1 0-3.4ZM11 10h2.8v1.2c.5-.8 1.4-1.5 2.9-1.5 2.1 0 3.5 1.4 3.5 4.2v4.6h-3v-4.2c0-1.2-.4-1.9-1.5-1.9-.9 0-1.4.6-1.6 1.2-.1.2-.1.5-.1.8v4.1h-3V10Z"
-                  fill="currentColor"
-                />
-              </svg>
-            </a>
-          </div>
         </div>
       </footer>
     </div>
