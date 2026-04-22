@@ -23,8 +23,19 @@ const translations = {
       "Un enfoque profesional que integra terapia manual, bienestar y atención cálida para dolor, tensión y recuperación.",
     viewServices: "Ver servicios",
     bookAppointment: "Reservar cita",
-    badgeTitle: "Masaje terapéutico",
-    badgeText: "Español e inglés",
+    badgeTitle: "Katy Fernandez",
+    badgeText: "Terapeuta de masaje · Atención bilingüe",
+    badgeHint: "Ver perfil",
+    badgeClose: "Cerrar",
+    aboutTitle: "Sobre Katy",
+    aboutText:
+      "Terapeuta de masaje con 5+ años de experiencia, enfocada en tratamientos personalizados para dolor, movilidad, recuperación y bienestar corporal.",
+    trustStrip: [
+      "5+ años de experiencia",
+      "Tejido profundo",
+      "Drenaje linfático",
+      "Liberación miofascial",
+    ],
     standardEyebrow: "El estándar",
     philosophyTitle: "Un enfoque clínico, humano y claramente diferenciado.",
     philosophyCopy:
@@ -78,27 +89,27 @@ const translations = {
     testimonials: [
       {
         quote:
-          "Esto no es solo relajación. Es trabajo terapéutico real que mejora dolor y movilidad.",
-        name: "Cliente internacional",
-        place: "Cartagena",
+          "Katy is truly phenomenal and always knows exactly what I need. She deserves all the recognition.",
+        name: "Liyah Lewis",
+        place: "Google review · 5 stars",
       },
       {
         quote:
-          "Después de mi cirugía, el drenaje linfático con Aluna fue clave en mi recuperación.",
-        name: "Paciente postquirúrgica",
-        place: "Barranquilla",
+          "Katy was amazing and made me feel super comfortable as it was my first time. I will definitely be coming back.",
+        name: "Jade Lee",
+        place: "Google review · 5 stars",
       },
       {
         quote:
-          "Por fin encontré un masaje terapéutico de verdad. Nota la diferencia desde la primera sesión.",
-        name: "Cliente frecuente",
-        place: "Cartagena",
+          "I have been going to Katy for over 3 years. She is very professional and ensures each massage is personalized.",
+        name: "Ruwandi Marianne",
+        place: "Google review · 5 stars",
       },
       {
         quote:
-          "Profesionalismo, calidez y resultados reales. Lo recomiendo completamente.",
-        name: "Cliente internacional",
-        place: "Miami",
+          "She checks in during the massage to see if the pressure is adequate and adjusts if I have any concerns.",
+        name: "Ruwandi Marianne",
+        place: "Google review · 5 stars",
       },
     ],
     processEyebrow: "El proceso",
@@ -129,8 +140,19 @@ const translations = {
       "A professional approach that integrates manual therapy, wellness, and warm care for pain, tension, and recovery.",
     viewServices: "View services",
     bookAppointment: "Book appointment",
-    badgeTitle: "Therapeutic massage",
-    badgeText: "Spanish and English",
+    badgeTitle: "Katy Fernandez",
+    badgeText: "Massage therapist · Bilingual care",
+    badgeHint: "View profile",
+    badgeClose: "Close",
+    aboutTitle: "About Katy",
+    aboutText:
+      "Massage therapist with 5+ years of experience, focused on personalized treatments for pain, mobility, recovery, and body wellness.",
+    trustStrip: [
+      "5+ years of experience",
+      "Deep tissue",
+      "Lymphatic drainage",
+      "Myofascial release",
+    ],
     standardEyebrow: "The standard",
     philosophyTitle: "A clinical, human, and clearly differentiated approach.",
     philosophyCopy:
@@ -184,27 +206,27 @@ const translations = {
     testimonials: [
       {
         quote:
-          "This is not just relaxation. It is real therapeutic work that improves pain and mobility.",
-        name: "International client",
-        place: "Cartagena",
+          "Katy is truly phenomenal and always knows exactly what I need. She deserves all the recognition.",
+        name: "Liyah Lewis",
+        place: "Google review · 5 stars",
       },
       {
         quote:
-          "After my surgery, lymphatic drainage with Aluna was key to my recovery.",
-        name: "Post-surgical patient",
-        place: "Barranquilla",
+          "Katy was amazing and made me feel super comfortable as it was my first time. I will definitely be coming back.",
+        name: "Jade Lee",
+        place: "Google review · 5 stars",
       },
       {
         quote:
-          "I finally found true therapeutic massage. You feel the difference from the first session.",
-        name: "Frequent client",
-        place: "Cartagena",
+          "I have been going to Katy for over 3 years. She is very professional and ensures each massage is personalized.",
+        name: "Ruwandi Marianne",
+        place: "Google review · 5 stars",
       },
       {
         quote:
-          "Professionalism, warmth, and real results. I recommend it completely.",
-        name: "International client",
-        place: "Miami",
+          "She checks in during the massage to see if the pressure is adequate and adjusts if I have any concerns.",
+        name: "Ruwandi Marianne",
+        place: "Google review · 5 stars",
       },
     ],
     processEyebrow: "The process",
@@ -264,8 +286,19 @@ const translations = {
       "Une approche professionnelle qui intègre thérapie manuelle, bien-être et attention chaleureuse pour la douleur, la tension et la récupération.",
     viewServices: "Voir les services",
     bookAppointment: "Réserver un rendez-vous",
-    badgeTitle: "Massage thérapeutique",
-    badgeText: "Espagnol et anglais",
+    badgeTitle: "Katy Fernandez",
+    badgeText: "Massothérapeute · Service bilingue",
+    badgeHint: "Voir le profil",
+    badgeClose: "Fermer",
+    aboutTitle: "À propos de Katy",
+    aboutText:
+      "Massothérapeute avec plus de 5 ans d'expérience, spécialisée dans les traitements personnalisés pour la douleur, la mobilité, la récupération et le bien-être corporel.",
+    trustStrip: [
+      "5+ ans d'expérience",
+      "Tissus profonds",
+      "Drainage lymphatique",
+      "Libération myofasciale",
+    ],
     standardEyebrow: "Le standard",
     philosophyTitle: "Une approche clinique, humaine et clairement différenciée.",
     philosophyCopy:
@@ -319,27 +352,27 @@ const translations = {
     testimonials: [
       {
         quote:
-          "Ce n'est pas seulement de la relaxation. C'est un vrai travail thérapeutique qui améliore la douleur et la mobilité.",
-        name: "Cliente internationale",
-        place: "Cartagena",
+          "Katy is truly phenomenal and always knows exactly what I need. She deserves all the recognition.",
+        name: "Liyah Lewis",
+        place: "Avis Google · 5 étoiles",
       },
       {
         quote:
-          "Après mon opération, le drainage lymphatique avec Aluna a été essentiel à ma récupération.",
-        name: "Patiente post-opératoire",
-        place: "Barranquilla",
+          "Katy was amazing and made me feel super comfortable as it was my first time. I will definitely be coming back.",
+        name: "Jade Lee",
+        place: "Avis Google · 5 étoiles",
       },
       {
         quote:
-          "J'ai enfin trouvé un vrai massage thérapeutique. On sent la différence dès la première séance.",
-        name: "Cliente régulière",
-        place: "Cartagena",
+          "I have been going to Katy for over 3 years. She is very professional and ensures each massage is personalized.",
+        name: "Ruwandi Marianne",
+        place: "Avis Google · 5 étoiles",
       },
       {
         quote:
-          "Professionnalisme, chaleur et résultats réels. Je recommande complètement.",
-        name: "Cliente internationale",
-        place: "Miami",
+          "She checks in during the massage to see if the pressure is adequate and adjusts if I have any concerns.",
+        name: "Ruwandi Marianne",
+        place: "Avis Google · 5 étoiles",
       },
     ],
     processEyebrow: "Le processus",
@@ -415,6 +448,7 @@ export default function App() {
   const testimonials = t.testimonials;
 
   const [activeIndex, setActiveIndex] = useState(0);
+  const [isBadgeExpanded, setIsBadgeExpanded] = useState(false);
   const heroRef = useRef(null);
 
   useEffect(() => {
@@ -541,21 +575,26 @@ export default function App() {
         }
 
         .language-trigger {
-          min-width: 86px;
-          height: 44px;
+          min-width: 68px;
+          height: 42px;
           border: 1px solid rgba(79, 100, 115, 0.12);
           border-radius: 999px;
-          background: rgba(255,255,255,0.78);
+          background: transparent;
           color: var(--navy);
           display: inline-flex;
           align-items: center;
           justify-content: center;
-          gap: 8px;
+          gap: 6px;
           font: inherit;
-          font-size: 0.9rem;
+          font-size: 0.82rem;
           font-weight: 600;
           cursor: pointer;
-          box-shadow: 0 6px 14px rgba(79, 100, 115, 0.06);
+          box-shadow: none;
+          text-transform: uppercase;
+        }
+
+        .language-trigger:hover {
+          background: rgba(255,255,255,0.62);
         }
 
         .language-panel {
@@ -592,8 +631,14 @@ export default function App() {
         }
 
         .language-flag {
-          font-size: 1.2rem;
+          font-size: 1rem;
           line-height: 1;
+        }
+
+        .language-chevron {
+          font-size: 0.78rem;
+          line-height: 1;
+          opacity: 0.72;
         }
 
         .button-dark, .button-light {
@@ -723,16 +768,118 @@ export default function App() {
           background: rgba(250, 247, 243, 0.94);
           border: 1px solid rgba(79, 100, 115, 0.08);
           border-radius: 18px;
-          padding: 14px 16px;
+          padding: 14px 48px 14px 16px;
           font-size: 0.8rem;
           color: var(--navy);
           box-shadow: 0 14px 30px rgba(79, 100, 115, 0.14);
+          text-align: left;
+          cursor: pointer;
+          font: inherit;
+          transition: transform 0.18s ease, background 0.18s ease;
+        }
+
+        .badge:hover {
+          transform: translateY(-2px);
+          background: var(--off-white);
         }
 
         .badge strong {
           display: block;
           color: var(--sage);
           margin-bottom: 4px;
+        }
+
+        .badge-hint {
+          display: block;
+          margin-top: 8px;
+          color: var(--muted);
+          font-size: 0.72rem;
+          font-weight: 600;
+        }
+
+        .badge-icon {
+          position: absolute;
+          top: 12px;
+          right: 12px;
+          width: 24px;
+          height: 24px;
+          border-radius: 999px;
+          background: rgba(168, 184, 162, 0.22);
+          color: var(--navy);
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 1rem;
+          font-weight: 700;
+          line-height: 1;
+        }
+
+        .about-overlay {
+          position: absolute;
+          inset: 14px;
+          border-radius: 28px;
+          background: linear-gradient(145deg, rgba(250, 247, 243, 0.96), rgba(244, 239, 234, 0.92));
+          border: 1px solid rgba(79, 100, 115, 0.10);
+          box-shadow: inset 0 1px 0 rgba(255,255,255,0.75);
+          padding: 34px;
+          color: var(--navy);
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-end;
+          animation: fadeIn 0.2s ease;
+        }
+
+        .about-overlay h2 {
+          margin: 10px 0 0;
+          color: var(--sage);
+          font-size: 2.35rem;
+          line-height: 1.05;
+          letter-spacing: -0.04em;
+        }
+
+        .about-overlay p {
+          max-width: 460px;
+          margin: 18px 0 0;
+          color: var(--muted);
+          font-size: 0.98rem;
+          line-height: 1.75;
+        }
+
+        .about-list {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 10px;
+          margin-top: 22px;
+        }
+
+        .about-pill {
+          border-radius: 999px;
+          padding: 8px 12px;
+          background: rgba(255,255,255,0.72);
+          border: 1px solid rgba(122, 143, 122, 0.14);
+          color: var(--navy);
+          font-size: 0.78rem;
+          font-weight: 600;
+        }
+
+        .about-close {
+          position: absolute;
+          top: 18px;
+          right: 18px;
+          width: 38px;
+          height: 38px;
+          border-radius: 999px;
+          border: 1px solid rgba(79, 100, 115, 0.12);
+          background: rgba(255,255,255,0.72);
+          color: var(--navy);
+          cursor: pointer;
+          font-size: 1.1rem;
+          line-height: 1;
+        }
+
+        @keyframes fadeIn {
+          from { opacity: 0; transform: scale(0.985); }
+          to { opacity: 1; transform: scale(1); }
         }
 
         .section {
@@ -863,6 +1010,13 @@ export default function App() {
           letter-spacing: -0.02em;
           color: var(--navy);
           font-style: italic;
+        }
+
+        .review-stars {
+          margin-top: 4px;
+          color: #D8A7A0;
+          font-size: 1.05rem;
+          letter-spacing: 0.08em;
         }
 
         .testimonial-meta {
@@ -1091,6 +1245,58 @@ export default function App() {
             font-size: 2.32rem;
           }
 
+          .badge {
+            left: 22px;
+            right: 22px;
+            bottom: 22px;
+            width: auto;
+            max-width: calc(100% - 44px);
+            padding: 10px 42px 10px 12px;
+            border-radius: 14px;
+            font-size: 0.74rem;
+            line-height: 1.35;
+          }
+
+          .badge strong {
+            margin-bottom: 2px;
+          }
+
+          .badge-hint {
+            display: none;
+          }
+
+          .badge-icon {
+            top: 50%;
+            right: 12px;
+            width: 22px;
+            height: 22px;
+            font-size: 0.95rem;
+            transform: translateY(-50%);
+          }
+
+          .about-overlay {
+            padding: 24px;
+          }
+
+          .about-overlay h2 {
+            font-size: 1.85rem;
+          }
+
+          .about-overlay p {
+            font-size: 0.9rem;
+            line-height: 1.65;
+          }
+
+          .about-list {
+            gap: 8px;
+            margin-top: 16px;
+          }
+
+          .about-pill {
+            padding: 7px 10px;
+            font-size: 0.72rem;
+          }
+
           .section {
             padding: 72px 0;
           }
@@ -1157,6 +1363,14 @@ export default function App() {
           </nav>
 
           <div className="header-actions">
+            <a
+              href={`${navPrefix}#contacto`}
+              className="button-dark"
+              style={styles.smallButton}
+            >
+              {t.reserve}
+            </a>
+
             <div className="language-menu">
               <button
                 type="button"
@@ -1167,6 +1381,7 @@ export default function App() {
               >
                 <span className="language-flag">{languages[language].flag}</span>
                 {languages[language].label}
+                <span className="language-chevron">⌄</span>
               </button>
 
               {isLanguageOpen && (
@@ -1189,14 +1404,6 @@ export default function App() {
                 </div>
               )}
             </div>
-
-            <a
-              href={`${navPrefix}#contacto`}
-              className="button-dark"
-              style={styles.smallButton}
-            >
-              {t.reserve}
-            </a>
           </div>
         </div>
       </header>
@@ -1322,10 +1529,44 @@ export default function App() {
                   backgroundPosition: "48% 24%",
                 }}
               />
-              <div className="badge">
-                <strong>{t.badgeTitle}</strong>
-                {t.badgeText}
-              </div>
+              {isBadgeExpanded ? (
+                <div className="about-overlay">
+                  <button
+                    type="button"
+                    className="about-close"
+                    onClick={() => setIsBadgeExpanded(false)}
+                    aria-label={t.badgeClose}
+                  >
+                    ×
+                  </button>
+                  <div className="eyebrow" style={styles.sageEyebrow}>
+                    {t.badgeTitle}
+                  </div>
+                  <h2 className="serif">{t.aboutTitle}</h2>
+                  <p>{t.aboutText}</p>
+                  <div className="about-list">
+                    {t.trustStrip.map((item) => (
+                      <span key={item} className="about-pill">
+                        {item}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              ) : (
+                <button
+                  type="button"
+                  className="badge"
+                  onClick={() => setIsBadgeExpanded(true)}
+                  aria-expanded={isBadgeExpanded}
+                >
+                  <strong>{t.badgeTitle}</strong>
+                  {t.badgeText}
+                  <span className="badge-hint">{t.badgeHint}</span>
+                  <span className="badge-icon" aria-hidden="true">
+                    +
+                  </span>
+                </button>
+              )}
             </div>
           </div>
         </section>
@@ -1485,6 +1726,9 @@ export default function App() {
                   }}
                 >
                   "
+                </div>
+                <div className="review-stars" aria-label="5 star Google review">
+                  ★★★★★
                 </div>
                 <div
                   className="testimonial-quote serif"
